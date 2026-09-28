@@ -2,19 +2,19 @@
   "tb-reunion.html": {
     "titre": "Course de TB - La Réunion",
     "nb_tb": 26,
-    "nb_etapes": 1887,
-    "maj": "24/09/2026"
+    "nb_etapes": 1176,
+    "maj": "28/09/2026"
   },
   "tb-seatle.html": {
     "titre": "Course de TB - Seattle",
     "nb_tb": 8,
-    "nb_etapes": 1408,
-    "maj": "24/09/2026"
+    "nb_etapes": 1422,
+    "maj": "28/09/2026"
   },
   "tb-japon.html": {
     "titre": "Course de TB - Japon",
     "nb_tb": 14,
-    "nb_etapes": 3048,
-    "maj": "24/09/2026"
+    "nb_etapes": 3064,
+    "maj": "28/09/2026"
   }
 }
