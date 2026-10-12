@@ -1,0 +1,16 @@
+{
+  "tb-carreth.html": {
+    "titre": "Mes Travel Bugs",
+    "nb_tb": 8,
+    "nb_etapes": 1390,
+    "ordre": 1,
+    "maj": "12/10/2026"
+  },
+  "tb-test.html": {
+    "titre": "Carte de test",
+    "nb_tb": 2,
+    "nb_etapes": 453,
+    "ordre": 2,
+    "maj": "12/10/2026"
+  }
+}
