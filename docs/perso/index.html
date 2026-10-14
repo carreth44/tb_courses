@@ -17,16 +17,25 @@ main{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1
 .carte:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(0,0,0,.18)}
 .carte h2{margin:0 0 6px;font-size:18px}
 .carte p{margin:0}
-.carte small{color:#6b7785}
+.carte .etat{color:#52606d;font-size:14px}
+.carte .depart{margin:-2px 0 6px;color:#2b6cb0;font-size:13px;font-weight:600}
+.podium{list-style:none;margin:10px 0 0;padding:8px 10px;background:#f7f9fb;border-radius:8px;display:flex;flex-direction:column;gap:4px}
+.podium li{display:flex;align-items:baseline;gap:8px;font-size:14px}
+.podium .med{flex:none;font-size:16px}
+.podium .nom{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.podium .nom b{font-weight:600}
+.podium i{flex:none;font-style:normal;color:#6b7785;font-size:13px;font-variant-numeric:tabular-nums}
+.podium.vide{display:block;font-style:italic;color:#6b7785;font-size:14px}
 footer{text-align:center;color:#6b7785;font-size:12px;padding:8px 16px 28px}
 </style>
 </head>
 <body>
 <header><h1>Mes cartes personnelles</h1><p>Suivi des courses de Travel Bugs</p></header>
 <main>
-<a class="carte" href="tb-carreth.html"><h2>Mes Travel Bugs</h2><p>8 TB &middot; 1390 étapes</p><small>Mise à jour : 12/10/2026</small></a>
-<a class="carte" href="tb-test.html"><h2>Carte de test</h2><p>2 TB &middot; 453 étapes</p><small>Mise à jour : 12/10/2026</small></a>
+<a class="carte" href="tb-carreth.html"><h2>Mes Travel Bugs</h2><p>8 TB &middot; 1390 étapes</p></a>
+<a class="carte" href="tb-dc72300.html"><h2>Travel Bugs de DC72300</h2><p>3 TB &middot; 557 étapes</p></a>
+<a class="carte" href="tb-test.html"><h2>Carte de test</h2><p>2 TB &middot; 453 étapes</p></a>
 </main>
-<footer>Généré par Thomas CARRE (carreth) le 12/10/2026<br>Fonds de carte : OpenStreetMap, OpenTopoMap, Esri</footer>
+<footer>Mis à jour le 14/10/2026 par Thomas CARRE (carreth)<br>Fonds de carte : OpenStreetMap, OpenTopoMap, Esri</footer>
 </body>
 </html>

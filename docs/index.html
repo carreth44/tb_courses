@@ -17,17 +17,25 @@ main{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1
 .carte:hover{transform:translateY(-3px);box-shadow:0 8px 18px rgba(0,0,0,.18)}
 .carte h2{margin:0 0 6px;font-size:18px}
 .carte p{margin:0}
-.carte small{color:#6b7785}
+.carte .etat{color:#52606d;font-size:14px}
+.carte .depart{margin:-2px 0 6px;color:#2b6cb0;font-size:13px;font-weight:600}
+.podium{list-style:none;margin:10px 0 0;padding:8px 10px;background:#f7f9fb;border-radius:8px;display:flex;flex-direction:column;gap:4px}
+.podium li{display:flex;align-items:baseline;gap:8px;font-size:14px}
+.podium .med{flex:none;font-size:16px}
+.podium .nom{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.podium .nom b{font-weight:600}
+.podium i{flex:none;font-style:normal;color:#6b7785;font-size:13px;font-variant-numeric:tabular-nums}
+.podium.vide{display:block;font-style:italic;color:#6b7785;font-size:14px}
 footer{text-align:center;color:#6b7785;font-size:12px;padding:8px 16px 28px}
 </style>
 </head>
 <body>
 <header><h1>Courses de Travel Bugs - Tellement Addict au Geocaching</h1><p>Suivi des courses de Travel Bugs</p></header>
 <main>
-<a class="carte" href="tb-reunion.html"><h2>Course TB - La Réunion</h2><p>26 TB &middot; 1180 étapes</p><small>Mise à jour : 12/10/2026</small></a>
-<a class="carte" href="tb-seattle.html"><h2>Course TB - Seattle</h2><p>8 TB &middot; 1446 étapes</p><small>Mise à jour : 12/10/2026</small></a>
-<a class="carte" href="tb-japon.html"><h2>Course TB - Japon</h2><p>14 TB &middot; 3092 étapes</p><small>Mise à jour : 12/10/2026</small></a>
+<a class="carte" href="tb-reunion.html"><h2>Course TB - La Réunion</h2><p class="depart">Départ le 06/07/2025</p><p>26 TB &middot; 1181 étapes</p><p class="etat">2 arrivés &middot; 24 en course</p><ol class="podium"><li><span class="med">&#129351;</span><span class="nom" title="TB RACE AROUND THE WORLD"><b>ManDyno</b></span><i>15/12/2025</i></li><li><span class="med">&#129352;</span><span class="nom" title="Course des Addicts 2025 - CarPat"><b>CarPat</b></span><i>09/04/2026</i></li></ol></a>
+<a class="carte" href="tb-japon.html"><h2>Course TB - Japon</h2><p class="depart">Départ le 14/02/2026</p><p>14 TB &middot; 3097 étapes</p><p class="etat">0 arrivé &middot; 14 en course</p><p class="podium vide">Aucun TB arrivé pour l'instant</p></a>
+<a class="carte" href="tb-seattle.html"><h2>Course TB - Seattle</h2><p class="depart">Départ le 23/04/2026</p><p>8 TB &middot; 1456 étapes</p><p class="etat">0 arrivé &middot; 8 en course</p><p class="podium vide">Aucun TB arrivé pour l'instant</p></a>
 </main>
-<footer>Généré par Thomas CARRE (carreth) le 12/10/2026<br>Fonds de carte : OpenStreetMap, OpenTopoMap, Esri</footer>
+<footer>Mis à jour le 14/10/2026 par Thomas CARRE (carreth)<br>Fonds de carte : OpenStreetMap, OpenTopoMap, Esri</footer>
 </body>
 </html>

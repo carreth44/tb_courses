@@ -2,22 +2,41 @@
   "tb-reunion.html": {
     "titre": "Course TB - La Réunion",
     "nb_tb": 26,
-    "nb_etapes": 1180,
+    "nb_etapes": 1181,
     "ordre": 1,
-    "maj": "12/10/2026"
+    "nb_recup": 2,
+    "depart": "06/07/2025",
+    "podium": [
+      {
+        "rang": 1,
+        "tb": "TB RACE AROUND THE WORLD",
+        "owner": "ManDyno",
+        "date": "15/12/2025"
+      },
+      {
+        "rang": 2,
+        "tb": "Course des Addicts 2025 - CarPat",
+        "owner": "CarPat",
+        "date": "09/04/2026"
+      }
+    ]
   },
   "tb-japon.html": {
     "titre": "Course TB - Japon",
     "nb_tb": 14,
-    "nb_etapes": 3092,
-    "ordre": 3,
-    "maj": "12/10/2026"
+    "nb_etapes": 3097,
+    "ordre": 2,
+    "nb_recup": 0,
+    "depart": "14/02/2026",
+    "podium": []
   },
   "tb-seattle.html": {
     "titre": "Course TB - Seattle",
     "nb_tb": 8,
-    "nb_etapes": 1446,
-    "ordre": 2,
-    "maj": "12/10/2026"
+    "nb_etapes": 1456,
+    "ordre": 3,
+    "nb_recup": 0,
+    "depart": "23/04/2026",
+    "podium": []
   }
 }
