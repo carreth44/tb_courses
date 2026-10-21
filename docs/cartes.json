@@ -24,7 +24,7 @@
   "tb-japon.html": {
     "titre": "Course TB - Japon",
     "nb_tb": 14,
-    "nb_etapes": 3121,
+    "nb_etapes": 3125,
     "ordre": 2,
     "nb_recup": 0,
     "depart": "14/02/2026",
@@ -33,7 +33,7 @@
   "tb-seattle.html": {
     "titre": "Course TB - Seattle",
     "nb_tb": 8,
-    "nb_etapes": 1469,
+    "nb_etapes": 1470,
     "ordre": 3,
     "nb_recup": 0,
     "depart": "23/04/2026",
