@@ -2,7 +2,7 @@
   "tb-reunion.html": {
     "titre": "Course TB - La Réunion",
     "nb_tb": 26,
-    "nb_etapes": 1181,
+    "nb_etapes": 1207,
     "ordre": 1,
     "nb_recup": 2,
     "depart": "06/07/2025",
@@ -24,7 +24,7 @@
   "tb-japon.html": {
     "titre": "Course TB - Japon",
     "nb_tb": 14,
-    "nb_etapes": 3125,
+    "nb_etapes": 3140,
     "ordre": 2,
     "nb_recup": 0,
     "depart": "14/02/2026",
@@ -33,7 +33,7 @@
   "tb-seattle.html": {
     "titre": "Course TB - Seattle",
     "nb_tb": 8,
-    "nb_etapes": 1470,
+    "nb_etapes": 1477,
     "ordre": 3,
     "nb_recup": 0,
     "depart": "23/04/2026",
