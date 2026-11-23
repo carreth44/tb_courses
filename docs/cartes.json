@@ -35,8 +35,15 @@
     "nb_tb": 8,
     "nb_etapes": 1576,
     "ordre": 3,
-    "nb_recup": 0,
+    "nb_recup": 1,
     "depart": "23/04/2026",
-    "podium": []
+    "podium": [
+      {
+        "rang": 1,
+        "tb": "RACE around THE WORLD back from HQ by ptitloup",
+        "owner": "ptitloup",
+        "date": "20/11/2026"
+      }
+    ]
   }
 }
